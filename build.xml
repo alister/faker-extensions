@@ -96,7 +96,7 @@
 
     <target name="phpunit-ci" description="Run unit tests with PHPUnit">
         <exec executable="vendor/bin/phpunit" failonerror="true">
-            <arg line="--configuration=${basedir}/"/>
+            <arg line="--configuration=${basedir}/phpunit.xml"/>
             <arg line="--coverage-html=build/artifacts/coverage"/>
             <arg line="--log-junit=build/artifacts/logs/junit.xml"/>
             <arg line="--coverage-clover=build/artifacts/logs/clover.xml"/>
