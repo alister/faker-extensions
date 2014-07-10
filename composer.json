@@ -1,0 +1,22 @@
+{
+    "name": "alister/faker-lib",
+    "license": "MIT",
+    "type": "project",
+    "description": "Faker library extensions",
+    "autoload": {
+        "psr-4": { "Alister\\Faker\\Provider\\": "src/" }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4",
+        "fzaninotto/faker": "1.4.0"
+    },
+    "require-dev": {
+        "ibuildings/qa-tools": "~1.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.7-dev"
+        }
+    }
+}
