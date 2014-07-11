@@ -1,6 +1,14 @@
 {
     "name": "alister/faker-extensions",
+    "description": "Additional providers for fzaninotto/Faker lib.",
+    "keywords": ["faker", "data"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Alister Bulman",
+            "email": "faker-lib@abulman.co.uk"
+        }
+    ],
     "type": "project",
     "description": "Faker library extensions",
     "autoload": {
@@ -9,14 +17,17 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4",
-        "fzaninotto/faker": "1.4.0"
+        "fzaninotto/faker": ">=1.4"
     },
     "require-dev": {
         "ibuildings/qa-tools": "~1.1"
     },
+    "suggest": {
+        "willdurand/faker-bundle": "Put the awesome Faker lib into the DIC and populate your database with fake data."
+    },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.7-dev"
+            "dev-master": "0.8-dev"
         }
     }
 }

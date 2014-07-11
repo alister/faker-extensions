@@ -5,7 +5,7 @@ use \Faker\Provider\Base as FakerBase;
 
 class Skills extends FakerBase
 {
-    static $skills = array(
+    static public $skills = array(
         'agile', 'android', 'angular.js', 'apache', 'api', 'backbone.js',
         'bootstrap', 'less', 'scss', 'c#', 'c++',
         'cassandra', 'chef', 'ci', 'clojure', 'concurrency', 'css',
@@ -27,8 +27,6 @@ class Skills extends FakerBase
     public static function skills($qty = 1)
     {
         return self::randomElements(self::$skills, $qty);
-        shuffle($skills);
-        return array_slice($skills, 0, $qty);
     }
 
     public function skillsString($qty = 1)

@@ -51,7 +51,9 @@ class SkillsTest extends \PHPUnit_Framework_TestCase
      */
     public function testSkillsStringHopefullyAll()
     {
-        $x = $this->s->skillsString(count(Skills::$skills));
+        $numInSkillsArray = count(Skills::$skills);
+        $this->assertGreaterThanOrEqual(20, $numInSkillsArray);
+        $x = $this->s->skillsString($numInSkillsArray);
         $this->assertContains('symfony2', $x, "Expected to get 'symfony2' somewhere");
     }
 

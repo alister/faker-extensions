@@ -1,6 +1,8 @@
 # Faker extensions
 
 [![Build Status](https://travis-ci.org/alister/faker-extensions.svg?branch=master)](https://travis-ci.org/alister/faker-extensions)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alister/faker-extensions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alister/faker-extensions/?branch=master)
+[![Dependency Status](https://www.versioneye.com/user/projects/53c05854638521361000009b/badge.svg?style=flat)](https://www.versioneye.com/user/projects/53c05854638521361000009b)
 
 ## Available extensions
 
