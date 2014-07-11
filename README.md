@@ -1,8 +1,10 @@
 # Faker extensions
 
 [![Build Status](https://travis-ci.org/alister/faker-extensions.svg?branch=master)](https://travis-ci.org/alister/faker-extensions)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/7ab3ad50-7e5c-48b7-8c96-7fd21234769d/mini.png)](https://insight.sensiolabs.com/projects/7ab3ad50-7e5c-48b7-8c96-7fd21234769d)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alister/faker-extensions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alister/faker-extensions/?branch=master)
-[![Dependency Status](https://www.versioneye.com/user/projects/53c05854638521361000009b/badge.svg?style=flat)](https://www.versioneye.com/user/projects/53c05854638521361000009b)
+[![Dependency Status](https://www.versioneye.com/user/projects/53c05854638521361000009b/badge.svg)](https://www.versioneye.com/user/projects/53c05854638521361000009b)
+
 
 ## Available extensions
 
