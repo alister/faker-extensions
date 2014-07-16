@@ -15,8 +15,8 @@ class Skills extends FakerBase
         'mobile', 'mongodb', 'mysql', 'nginx', 'node-js', 'nosql',
         'objective-c', 'php', 'postgresql', 'puppet', 'python', 'redis',
         'rest', 'ruby', 'ruby-on-rails', 'scala', 'scalability', 'scaling',
-        'spring', 'sql-server', 'symfony', 'symfony2', 'sysadmin', 'systems', 
-        'tdd', 'telecomms', 'testing', 'tomcat', 'unix', 'ux', 'varnish', 
+        'spring', 'sql-server', 'symfony', 'symfony2', 'sysadmin', 'systems',
+        'tdd', 'telecomms', 'testing', 'tomcat', 'unix', 'ux', 'varnish',
         'wpf', 'xcode', 'zend', 'zf2',
     );
 

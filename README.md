@@ -1,10 +1,8 @@
 # Faker extensions
 
-[![Build Status](https://travis-ci.org/alister/faker-extensions.svg?branch=master)](https://travis-ci.org/alister/faker-extensions)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/7ab3ad50-7e5c-48b7-8c96-7fd21234769d/mini.png)](https://insight.sensiolabs.com/projects/7ab3ad50-7e5c-48b7-8c96-7fd21234769d)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alister/faker-extensions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alister/faker-extensions/?branch=master)
-[![Dependency Status](https://www.versioneye.com/user/projects/53c05854638521361000009b/badge.svg)](https://www.versioneye.com/user/projects/53c05854638521361000009b)
+[![Build Status](https://travis-ci.org/alister/faker-extensions.svg?branch=master)](https://travis-ci.org/alister/faker-extensions) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/7ab3ad50-7e5c-48b7-8c96-7fd21234769d/mini.png)](https://insight.sensiolabs.com/projects/7ab3ad50-7e5c-48b7-8c96-7fd21234769d) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alister/faker-extensions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alister/faker-extensions/?branch=master) [![Dependency Status](https://www.versioneye.com/user/projects/53c05854638521361000009b/badge.svg)](https://www.versioneye.com/user/projects/53c05854638521361000009b)
 
+[![Latest Stable Version](https://poser.pugx.org/alister/faker-extensions/v/stable.svg)](https://packagist.org/packages/alister/faker-extensions) [![Total Downloads](https://poser.pugx.org/alister/faker-extensions/downloads.svg)](https://packagist.org/packages/alister/faker-extensions) [![Latest Unstable Version](https://poser.pugx.org/alister/faker-extensions/v/unstable.svg)](https://packagist.org/packages/alister/faker-extensions) [![License](https://poser.pugx.org/alister/faker-extensions/license.svg)](https://packagist.org/packages/alister/faker-extensions)
 
 ## Available extensions
 
