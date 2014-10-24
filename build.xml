@@ -2,7 +2,7 @@
 
 <project name="Alister Faker Extensions-ci" default="build">
         <target name="build"
-            depends="prepare,php-lint-ci,phpmd-ci,phpcs-ci,phpcpd-ci,php-security-checker,phpunit-ci"/>
+            depends="prepare,php-lint-ci,composer,phpmd-ci,phpcs-ci,phpcpd-ci,php-security-checker,phpunit-ci"/>
 
     <target name="clean" description="Cleanup build artifacts">
         <delete dir="build/artifacts/coverage"/>
@@ -43,6 +43,33 @@
                 </tokenfilter>
             </filterchain>
         </loadresource>
+    </target>
+
+    <target description="Installing dependencies" name="composer">
+        <tstamp>
+            <format offset="-14" pattern="MM/dd/yyyy hh:mm aa" property="fourteen.days.ago" unit="day"/>
+        </tstamp>
+        <delete>
+            <fileset dir="${basedir}">
+                <include name="composer.phar"/>
+                <date datetime="${fourteen.days.ago}" when="before"/>
+            </fileset>
+        </delete>
+
+        <get dest="${basedir}/composer.phar" skipexisting="true" src="https://getcomposer.org/composer.phar"/>
+
+        <exec executable="php" failonerror="true">
+            <arg value="composer.phar"/>
+            <!-- Use the lockfile versions only, if it exists (fall back to .json) -->
+            <arg value="install"/>
+            <!-- includes mockery, for testing -->
+            <arg value="--dev"/>
+            <!-- download/cache a local .zip file for use -->
+            <arg value="--prefer-dist"/>
+            <arg value="--no-progress"/>
+            <!--arg value="- -install-suggests" /-->
+            <!--arg value="- -optimize-autoloader" /   # We don't usually optimise till full deployment # -->
+        </exec>
     </target>
 
     <target name="php-lint-ci" depends="get-changeset.php.spacesep" if="changeset.php.notempty"
