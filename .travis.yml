@@ -4,7 +4,6 @@ php:
 - 5.6
 - 5.5
 - 5.4
-- hhvm
 
 cache:
   directories:
@@ -21,7 +20,3 @@ script:
 branches:
   only:
   - master
-
-deploy:
-  api_key:
-    secure: UcRPYWnLttbNL5scVjSNvCY1h3kLs10EuTre2Z7N5RHBJuT20RKfYNyTdV6re85CAJHYE7mS2w6TivMgTS3iHCwRjWlnNfFlVvey1078qjPvqriADHlagviGuP2pWuYU6f8x5nMZo5lMIu2QZjq1z/ocQZMX8FG6Z9atZ/yxqSA=
