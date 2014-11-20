@@ -1,4 +1,11 @@
 # .scrutinizer.yml
+before_commands:
+    - "composer self-update"
+    - "composer install --prefer-dist"
+
+filter:
+    excluded_paths: [vendor/*, tests/*, bin/*]
+
 build:
     environment:
         php:

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "01e6100c4fb8d0f2a97ede067f7a991c",
+    "hash": "9208cf6f100048d399bb0f03dfe64c3b",
     "packages": [
         {
             "name": "fzaninotto/faker",
@@ -185,25 +185,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Mink.git",
-                "reference": "090900a0049c441f1e072bbd837db4079b2250c5",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "090900a0049c441f1e072bbd837db4079b2250c5"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Behat/Mink/zipball/090900a0049c441f1e072bbd837db4079b2250c5",
                 "reference": "090900a0049c441f1e072bbd837db4079b2250c5",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.1",
@@ -252,25 +240,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/MinkBrowserKitDriver.git",
-                "reference": "aed8f4a596b79014a75254c3e337511c33e38cbd",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "aed8f4a596b79014a75254c3e337511c33e38cbd"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Behat/MinkBrowserKitDriver/zipball/aed8f4a596b79014a75254c3e337511c33e38cbd",
                 "reference": "aed8f4a596b79014a75254c3e337511c33e38cbd",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "behat/mink": "~1.6@dev",
@@ -292,7 +268,7 @@
                     "Behat\\Mink\\Driver": "src/"
                 }
             },
-            "notification-url": "/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -370,25 +346,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/MinkGoutteDriver.git",
-                "reference": "2bf327b4166694ecaa8ae7f956cb6ae252ecf03e",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "2bf327b4166694ecaa8ae7f956cb6ae252ecf03e"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Behat/MinkGoutteDriver/zipball/2bf327b4166694ecaa8ae7f956cb6ae252ecf03e",
                 "reference": "2bf327b4166694ecaa8ae7f956cb6ae252ecf03e",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "behat/mink": "~1.6@dev",
@@ -434,25 +398,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/MinkSelenium2Driver.git",
-                "reference": "8018fee80bf6573f909ece3e0dfc07d0eb352210",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "8018fee80bf6573f909ece3e0dfc07d0eb352210"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Behat/MinkSelenium2Driver/zipball/8018fee80bf6573f909ece3e0dfc07d0eb352210",
                 "reference": "8018fee80bf6573f909ece3e0dfc07d0eb352210",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "behat/mink": "~1.6@dev",
@@ -470,7 +422,7 @@
                     "Behat\\Mink\\Driver": "src/"
                 }
             },
-            "notification-url": "/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -545,25 +497,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/instantiator/zipball/f976e5de371104877ebc89bd8fecb0019ed9c119",
                 "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3,<8.0-DEV"
@@ -610,26 +550,14 @@
             "version": "v2.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Goutte.git",
-                "reference": "b12c3f7ec68d8814b50444cfe142fd0a056557f9",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://github.com/FriendsOfPHP/Goutte.git",
+                "reference": "b12c3f7ec68d8814b50444cfe142fd0a056557f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Goutte/zipball/b12c3f7ec68d8814b50444cfe142fd0a056557f9",
+                "url": "https://api.github.com/repos/FriendsOfPHP/Goutte/zipball/b12c3f7ec68d8814b50444cfe142fd0a056557f9",
                 "reference": "b12c3f7ec68d8814b50444cfe142fd0a056557f9",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "4.*",
@@ -672,25 +600,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "66fd916e9f9130bc22c51450476823391cb2f67c",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "66fd916e9f9130bc22c51450476823391cb2f67c"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/guzzle/zipball/66fd916e9f9130bc22c51450476823391cb2f67c",
                 "reference": "66fd916e9f9130bc22c51450476823391cb2f67c",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -749,25 +665,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/streams.git",
-                "reference": "f91b721d73f0e561410903b3b3c90a5d0e40b534",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "f91b721d73f0e561410903b3b3c90a5d0e40b534"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/streams/zipball/f91b721d73f0e561410903b3b3c90a5d0e40b534",
                 "reference": "f91b721d73f0e561410903b3b3c90a5d0e40b534",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
@@ -814,25 +718,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ibuildingsnl/qa-tools.git",
-                "reference": "8ad25e0a919aa0ed7ceb00abbe1d80a0dae929dd",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "8ad25e0a919aa0ed7ceb00abbe1d80a0dae929dd"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ibuildingsnl/qa-tools/zipball/8ad25e0a919aa0ed7ceb00abbe1d80a0dae929dd",
                 "reference": "8ad25e0a919aa0ed7ceb00abbe1d80a0dae929dd",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "behat/behat": "~2.5",
@@ -874,29 +766,17 @@
         },
         {
             "name": "instaclick/php-webdriver",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/instaclick/php-webdriver.git",
-                "reference": "3cf130283b054b50119f887e11b9b5a648d785a9",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "a57b2bcd9467e217134a2248b261b8b3a90ccea0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/3cf130283b054b50119f887e11b9b5a648d785a9",
-                "reference": "3cf130283b054b50119f887e11b9b5a648d785a9",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/a57b2bcd9467e217134a2248b261b8b3a90ccea0",
+                "reference": "a57b2bcd9467e217134a2248b261b8b3a90ccea0",
+                "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
@@ -916,7 +796,7 @@
                     "WebDriver": "lib/"
                 }
             },
-            "notification-url": "/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -929,7 +809,7 @@
                 {
                     "name": "Anthon Pang",
                     "email": "apang@softwaredevelopment.ca",
-                    "role": "developer"
+                    "role": "Fork Maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -940,7 +820,7 @@
                 "webdriver",
                 "webtest"
             ],
-            "time": "2014-05-08 04:19:19"
+            "time": "2014-05-12 21:03:05"
         },
         {
             "name": "pdepend/pdepend",
@@ -948,25 +828,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pdepend/pdepend.git",
-                "reference": "dc582a3c0180664a8fbfc5a34efaf4cc13fccc60",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "dc582a3c0180664a8fbfc5a34efaf4cc13fccc60"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/pdepend/pdepend/zipball/dc582a3c0180664a8fbfc5a34efaf4cc13fccc60",
                 "reference": "dc582a3c0180664a8fbfc5a34efaf4cc13fccc60",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "symfony/config": "@stable",
@@ -999,25 +867,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpmd/phpmd.git",
-                "reference": "1a485d9db869137af5e9678bd844568c92998b25",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "1a485d9db869137af5e9678bd844568c92998b25"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpmd/phpmd/zipball/1a485d9db869137af5e9678bd844568c92998b25",
                 "reference": "1a485d9db869137af5e9678bd844568c92998b25",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "pdepend/pdepend": "2.0.*",
@@ -1048,25 +904,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "53603b3c995f5aab6b59c8e08c3a663d2cc810b7",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "53603b3c995f5aab6b59c8e08c3a663d2cc810b7"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/53603b3c995f5aab6b59c8e08c3a663d2cc810b7",
                 "reference": "53603b3c995f5aab6b59c8e08c3a663d2cc810b7",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
@@ -1258,25 +1102,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "f8d5d08c56de5cfd592b3340424a81733259a876",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "f8d5d08c56de5cfd592b3340424a81733259a876"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/f8d5d08c56de5cfd592b3340424a81733259a876",
                 "reference": "f8d5d08c56de5cfd592b3340424a81733259a876",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
@@ -1296,7 +1128,7 @@
                     "src/"
                 ]
             },
-            "notification-url": "/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1315,29 +1147,17 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.3.4",
+            "version": "4.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "23e4e0310f037aae873cc81b8658dbbb82878f71",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "2dab9d593997db4abcf58d0daf798eb4e9cecfe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/23e4e0310f037aae873cc81b8658dbbb82878f71",
-                "reference": "23e4e0310f037aae873cc81b8658dbbb82878f71",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2dab9d593997db4abcf58d0daf798eb4e9cecfe1",
+                "reference": "2dab9d593997db4abcf58d0daf798eb4e9cecfe1",
+                "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
@@ -1397,7 +1217,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-22 11:43:12"
+            "time": "2014-11-11 10:11:09"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1405,25 +1225,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "c63d2367247365f688544f0d500af90a11a44c65",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "c63d2367247365f688544f0d500af90a11a44c65"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/c63d2367247365f688544f0d500af90a11a44c65",
                 "reference": "c63d2367247365f688544f0d500af90a11a44c65",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "~1.0,>=1.0.1",
@@ -1472,25 +1280,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "e54a01c0da1b87db3c5a3c4c5277ddf331da4aef",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "e54a01c0da1b87db3c5a3c4c5277ddf331da4aef"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/e54a01c0da1b87db3c5a3c4c5277ddf331da4aef",
                 "reference": "e54a01c0da1b87db3c5a3c4c5277ddf331da4aef",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
@@ -1548,25 +1344,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "5843509fed39dee4b356a306401e9dd1a931fec7",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "5843509fed39dee4b356a306401e9dd1a931fec7"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/5843509fed39dee4b356a306401e9dd1a931fec7",
                 "reference": "5843509fed39dee4b356a306401e9dd1a931fec7",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -1612,25 +1396,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "0d9bf79554d2a999da194a60416c15cf461eb67d",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "0d9bf79554d2a999da194a60416c15cf461eb67d"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/0d9bf79554d2a999da194a60416c15cf461eb67d",
                 "reference": "0d9bf79554d2a999da194a60416c15cf461eb67d",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -1674,25 +1446,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "c7d59948d6e82818e1bdff7cadb6c34710eb7dc0",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "c7d59948d6e82818e1bdff7cadb6c34710eb7dc0"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/c7d59948d6e82818e1bdff7cadb6c34710eb7dc0",
                 "reference": "c7d59948d6e82818e1bdff7cadb6c34710eb7dc0",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -1876,25 +1636,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "5b4eb4743ebe68276c911c84101ecdf4a9ae76ee",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "5b4eb4743ebe68276c911c84101ecdf4a9ae76ee"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/5b4eb4743ebe68276c911c84101ecdf4a9ae76ee",
                 "reference": "5b4eb4743ebe68276c911c84101ecdf4a9ae76ee",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
@@ -1914,7 +1662,7 @@
                     "SensioLabs\\Security": ""
                 }
             },
-            "notification-url": "/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1933,25 +1681,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "5d973e59cf58a0c847f298de84374c96b42b17b3",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "5d973e59cf58a0c847f298de84374c96b42b17b3"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5d973e59cf58a0c847f298de84374c96b42b17b3",
                 "reference": "5d973e59cf58a0c847f298de84374c96b42b17b3",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
@@ -2021,25 +1757,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/BrowserKit.git",
-                "reference": "0cb9e603b1850c9495bfb96b3c4caf7ea17700d4",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "0cb9e603b1850c9495bfb96b3c4caf7ea17700d4"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/BrowserKit/zipball/0cb9e603b1850c9495bfb96b3c4caf7ea17700d4",
                 "reference": "0cb9e603b1850c9495bfb96b3c4caf7ea17700d4",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
@@ -2088,25 +1812,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Config.git",
-                "reference": "0316364bfebc8b080077c731a99f189341476bd7",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "0316364bfebc8b080077c731a99f189341476bd7"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Config/zipball/0316364bfebc8b080077c731a99f189341476bd7",
                 "reference": "0316364bfebc8b080077c731a99f189341476bd7",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
@@ -2148,25 +1860,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "6f177fca24200a5b97aef5ce7a5c98124a0f0db0",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "6f177fca24200a5b97aef5ce7a5c98124a0f0db0"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Console/zipball/6f177fca24200a5b97aef5ce7a5c98124a0f0db0",
                 "reference": "6f177fca24200a5b97aef5ce7a5c98124a0f0db0",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2215,25 +1915,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector.git",
-                "reference": "7cdf543a3f31935aae58de4e6e607d4bdeb3f5dc",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "7cdf543a3f31935aae58de4e6e607d4bdeb3f5dc"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/CssSelector/zipball/7cdf543a3f31935aae58de4e6e607d4bdeb3f5dc",
                 "reference": "7cdf543a3f31935aae58de4e6e607d4bdeb3f5dc",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2278,25 +1966,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DependencyInjection.git",
-                "reference": "fb40e4ea115d331346fbbc4da8f42825e524c7a0",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "fb40e4ea115d331346fbbc4da8f42825e524c7a0"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/DependencyInjection/zipball/fb40e4ea115d331346fbbc4da8f42825e524c7a0",
                 "reference": "fb40e4ea115d331346fbbc4da8f42825e524c7a0",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2347,25 +2023,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "5b45ef9b8a8e6dda47eb9b9b982f61e8b2caa21e",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "5b45ef9b8a8e6dda47eb9b9b982f61e8b2caa21e"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/5b45ef9b8a8e6dda47eb9b9b982f61e8b2caa21e",
                 "reference": "5b45ef9b8a8e6dda47eb9b9b982f61e8b2caa21e",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2412,25 +2076,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "804eb28dbbfba9ffdab21fe2066744906cea2212",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "804eb28dbbfba9ffdab21fe2066744906cea2212"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/804eb28dbbfba9ffdab21fe2066744906cea2212",
                 "reference": "804eb28dbbfba9ffdab21fe2066744906cea2212",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2481,25 +2133,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
-                "reference": "4e62fab0060a826561c78b665925b37c870c45f5",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "4e62fab0060a826561c78b665925b37c870c45f5"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Filesystem/zipball/4e62fab0060a826561c78b665925b37c870c45f5",
                 "reference": "4e62fab0060a826561c78b665925b37c870c45f5",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2540,25 +2180,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "cf66df4e783e6aade319b273c9bcf9e42aa9b10f",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "cf66df4e783e6aade319b273c9bcf9e42aa9b10f"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Finder/zipball/cf66df4e783e6aade319b273c9bcf9e42aa9b10f",
                 "reference": "cf66df4e783e6aade319b273c9bcf9e42aa9b10f",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2599,25 +2227,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation.git",
-                "reference": "362fe4da2cfe587f72d57aaa2f89e6b61c05dedf",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "362fe4da2cfe587f72d57aaa2f89e6b61c05dedf"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Translation/zipball/362fe4da2cfe587f72d57aaa2f89e6b61c05dedf",
                 "reference": "362fe4da2cfe587f72d57aaa2f89e6b61c05dedf",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2667,25 +2283,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Yaml/zipball/2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
                 "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -2725,25 +2329,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theseer/fDOMDocument.git",
-                "reference": "d08cf070350f884c63fc9078d27893c2ab6c7cef",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "d08cf070350f884c63fc9078d27893c2ab6c7cef"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/theseer/fDOMDocument/zipball/d08cf070350f884c63fc9078d27893c2ab6c7cef",
                 "reference": "d08cf070350f884c63fc9078d27893c2ab6c7cef",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
@@ -2776,26 +2368,14 @@
             "version": "v1.16.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Twig.git",
-                "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc",
-                "mirrors": [
-                    {
-                        "url": "alister@10.0.5.11.xip.io/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
                 "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.10.0.5.11.xip.io/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
