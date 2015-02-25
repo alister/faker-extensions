@@ -9,7 +9,7 @@ class SkillsTest extends \PHPUnit_Framework_TestCase
     /**
      * @var Skills
      */
-    protected $s;
+    protected $skObj;
 
     /**
      * Sets up the fixture, for example, opens a network connection.
@@ -17,7 +17,7 @@ class SkillsTest extends \PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->s = new Skills(new Generator);
+        $this->skObj = new Skills(new Generator);
     }
 
     /**
@@ -25,9 +25,9 @@ class SkillsTest extends \PHPUnit_Framework_TestCase
      */
     public function testSkills()
     {
-        $x = $this->s->skills(3);
-        $this->assertInternalType('array', $x);
-        $this->assertCount(3, $x);
+        $res = $this->skObj->skills(3);
+        $this->assertInternalType('array', $res);
+        $this->assertCount(3, $res);
     }
 
     /**
@@ -36,14 +36,14 @@ class SkillsTest extends \PHPUnit_Framework_TestCase
     public function testSkillsString()
     {
         // 3 items, 2 commas to seperate them - x,y,z
-        $x = $this->s->skillsString(3);
-        $this->assertInternalType('string', $x);
-        $this->assertEquals(2, substr_count($x, ','));
+        $res = $this->skObj->skillsString(3);
+        $this->assertInternalType('string', $res);
+        $this->assertEquals(2, substr_count($res, ','));
 
         // 1 item, zero commas to seperate them
-        $x = $this->s->skillsString();
-        $this->assertInternalType('string', $x);
-        $this->assertEquals(0, substr_count($x, ','));
+        $res = $this->skObj->skillsString();
+        $this->assertInternalType('string', $res);
+        $this->assertEquals(0, substr_count($res, ','));
     }
 
     /**
@@ -53,8 +53,8 @@ class SkillsTest extends \PHPUnit_Framework_TestCase
     {
         $numInSkillsArray = count(Skills::$skills);
         $this->assertGreaterThanOrEqual(20, $numInSkillsArray);
-        $x = $this->s->skillsString($numInSkillsArray);
-        $this->assertContains('symfony2', $x, "Expected to get 'symfony2' somewhere");
+        $res = $this->skObj->skillsString($numInSkillsArray);
+        $this->assertContains('symfony2', $res, "Expected to get 'symfony2' somewhere");
     }
 
     /**
@@ -63,6 +63,6 @@ class SkillsTest extends \PHPUnit_Framework_TestCase
     public function testGettingMoreSkillsThanExist()
     {
         $qty = 1 + count(Skills::$skills);
-        $this->s->skillsString($qty);
+        $this->skObj->skillsString($qty);
     }
 }
