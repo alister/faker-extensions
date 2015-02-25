@@ -63,7 +63,7 @@
             <!-- Use the lockfile versions only, if it exists (fall back to .json) -->
             <arg value="install"/>
             <!-- includes mockery, for testing -->
-            <arg value="--dev"/>
+            <!-- arg value="- -dev"/ -->
             <!-- download/cache a local .zip file for use -->
             <arg value="--prefer-dist"/>
             <arg value="--no-progress"/>
