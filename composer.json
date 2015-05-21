@@ -17,7 +17,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4",
-        "fzaninotto/faker": ">=1.4"
+        "fzaninotto/faker": "~1.4"
     },
     "require-dev": {
         "ibuildings/qa-tools": "~1.1"
@@ -28,11 +28,6 @@
     "extra": {
         "branch-alias": {
             "dev-master": "0.9-dev"
-        }
-    },
-    "config": {
-        "github-oauth":{
-            "github.com": "f351cf099bb3d96f4cf3b7d43f80d7d49009a438"
         }
     }
 }

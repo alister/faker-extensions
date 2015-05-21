@@ -1,4 +1,4 @@
-all: lint test
+all: tidy lint test
 
 lint:
 	ant php-lint-ci
