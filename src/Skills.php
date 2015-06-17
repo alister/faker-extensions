@@ -1,11 +1,12 @@
 <?php
+
 namespace Alister\Faker\Provider;
 
-use \Faker\Provider\Base as FakerBase;
+use Faker\Provider\Base as FakerBase;
 
 class Skills extends FakerBase
 {
-    static public $skills = array(
+    public static $skills = array(
         'agile', 'android', 'angular.js', 'apache', 'api', 'backbone.js',
         'bootstrap', 'less', 'scss', 'c#', 'c++',
         'cassandra', 'chef', 'ci', 'clojure', 'concurrency', 'css',
@@ -21,7 +22,8 @@ class Skills extends FakerBase
     );
 
     /**
-     * Generate fake 'skills', from a list
+     * Generate fake 'skills', from a list.
+     *
      * @example 'zf2' or ['css', 'redis']
      */
     public static function skills($qty = 1)

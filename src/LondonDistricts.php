@@ -1,7 +1,8 @@
 <?php
+
 namespace Alister\Faker\Provider;
 
-use \Faker\Provider\Base as FakerBase;
+use Faker\Provider\Base as FakerBase;
 
 /**
  * source: http://en.wikipedia.org/wiki/List_of_areas_of_London

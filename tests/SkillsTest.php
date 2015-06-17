@@ -1,4 +1,5 @@
 <?php
+
 namespace Alister\Faker\Tests\Provider;
 
 use Alister\Faker\Provider\Skills;
@@ -13,11 +14,12 @@ class SkillsTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Sets up the fixture, for example, opens a network connection.
+     *
      * This method is called before a test is executed.
      */
     protected function setUp()
     {
-        $this->skObj = new Skills(new Generator);
+        $this->skObj = new Skills(new Generator());
     }
 
     /**
