@@ -6,7 +6,7 @@ use Faker\Provider\Base as FakerBase;
 
 class Skills extends FakerBase
 {
-    public static $skills = array(
+    public static $skills = [
         'agile', 'android', 'angular.js', 'apache', 'api', 'backbone.js',
         'bootstrap', 'less', 'scss', 'c#', 'c++',
         'cassandra', 'chef', 'ci', 'clojure', 'concurrency', 'css',
@@ -19,7 +19,7 @@ class Skills extends FakerBase
         'spring', 'sql-server', 'symfony', 'symfony2', 'sysadmin', 'systems',
         'tdd', 'telecomms', 'testing', 'tomcat', 'unix', 'ux', 'varnish',
         'wpf', 'xcode', 'zend', 'zf2',
-    );
+    ];
 
     /**
      * Generate fake 'skills', from a list.
