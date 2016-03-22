@@ -10,17 +10,16 @@
         }
     ],
     "type": "project",
-    "description": "Faker library extensions",
     "autoload": {
         "psr-4": { "Alister\\Faker\\Provider\\": "src/" }
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4",
+        "php": ">=5.6",
         "fzaninotto/faker": "~1.4"
     },
     "require-dev": {
-        "ibuildings/qa-tools": "~1.1"
+        "ibuildings/qa-tools": "^2.0"
     },
     "suggest": {
         "willdurand/faker-bundle": "Put the awesome Faker lib into the DIC and populate your database with fake data."
