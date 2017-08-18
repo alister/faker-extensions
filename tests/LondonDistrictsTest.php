@@ -4,8 +4,9 @@ namespace Alister\Faker\Tests\Provider;
 
 use Alister\Faker\Provider\LondonDistricts;
 use Faker\Generator;
+use PHPUnit\Framework\TestCase;
 
-class LondonDistrictsTest extends \PHPUnit_Framework_TestCase
+class LondonDistrictsTest extends TestCase
 {
     /**
      * @var LondonDistricts
