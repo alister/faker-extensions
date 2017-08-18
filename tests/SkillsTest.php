@@ -4,8 +4,9 @@ namespace Alister\Faker\Tests\Provider;
 
 use Alister\Faker\Provider\Skills;
 use Faker\Generator;
+use PHPUnit\Framework\TestCase;
 
-class SkillsTest extends \PHPUnit_Framework_TestCase
+class SkillsTest extends TestCase
 {
     /**
      * @var Skills
