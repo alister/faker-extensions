@@ -3,5 +3,6 @@ cache.properties
 vendor/
 build/
 composer.phar
+composer.lock
 *~
 *.bak
