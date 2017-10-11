@@ -61,6 +61,33 @@ class SkillsTest extends TestCase
     }
 
     /**
+     * @covers Alister\Faker\Provider\Skills::skills
+     */
+    public function testRandomBetween()
+    {
+        $res = $this->skObj->skills(1, count(Skills::$skills));
+        $this->assertGreaterThanOrEqual(2, $res, "expected to get more than one (but is random!)");
+    }
+
+    /**
+     * @covers Alister\Faker\Provider\Skills::skillsString
+     * @covers Alister\Faker\Provider\Skills::skills
+     */
+    public function testRandomOnlyWhenMaxIsGtZero()
+    {
+        $res = $this->skObj->skillsString(3, 0);    // x,y,z - 2 commas
+        $this->assertEquals(2, substr_count($res, ','));
+
+        $res = $this->skObj->skills(3, 0);
+        $this->assertCount(3, $res, "Should only get 3, if Max > 0");
+        $res = $this->skObj->skills(3);
+        $this->assertCount(3, $res, "Should only get 3, if Max > 0");
+        $res = $this->skObj->skills(3, -1);
+        $this->assertCount(3, $res, "Should only get 3, if Max > 0");
+    }
+
+
+    /**
      * @expectedException \LengthException
      */
     public function testGettingMoreSkillsThanExist()

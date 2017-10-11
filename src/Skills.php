@@ -26,13 +26,16 @@ class Skills extends FakerBase
      *
      * @example 'zf2' or ['css', 'redis']
      */
-    public static function skills($qty = 1)
+    public static function skills($qty = 1, $max = 0)
     {
+        if ($max > 0) {
+            $qty = self::numberBetween($qty, $max);
+        }
         return self::randomElements(self::$skills, $qty);
     }
 
-    public function skillsString($qty = 1)
+    public function skillsString($qty = 1, $max = 0)
     {
-        return implode(',', $this->skills($qty));
+        return implode(',', $this->skills($qty, $max));
     }
 }
