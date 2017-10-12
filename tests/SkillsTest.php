@@ -66,7 +66,7 @@ class SkillsTest extends TestCase
     public function testRandomBetween()
     {
         $res = $this->skObj->skills(1, count(Skills::$skills));
-        $this->assertGreaterThanOrEqual(2, $res, "expected to get more than one (but is random!)");
+        $this->assertGreaterThanOrEqual(2, $res, 'expected to get more than one (but is random!)');
     }
 
     /**
@@ -79,13 +79,12 @@ class SkillsTest extends TestCase
         $this->assertEquals(2, substr_count($res, ','));
 
         $res = $this->skObj->skills(3, 0);
-        $this->assertCount(3, $res, "Should only get 3, if Max > 0");
+        $this->assertCount(3, $res, 'Should only get 3, if Max > 0');
         $res = $this->skObj->skills(3);
-        $this->assertCount(3, $res, "Should only get 3, if Max > 0");
+        $this->assertCount(3, $res, 'Should only get 3, if Max > 0');
         $res = $this->skObj->skills(3, -1);
-        $this->assertCount(3, $res, "Should only get 3, if Max > 0");
+        $this->assertCount(3, $res, 'Should only get 3, if Max > 0');
     }
-
 
     /**
      * @expectedException \LengthException
