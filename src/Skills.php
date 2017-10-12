@@ -31,6 +31,7 @@ class Skills extends FakerBase
         if ($max > 0) {
             $qty = self::numberBetween($qty, $max);
         }
+
         return self::randomElements(self::$skills, $qty);
     }
 
