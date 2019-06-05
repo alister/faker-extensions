@@ -22,6 +22,9 @@ matrix:
       env: dependencies=lowest
     - php: nightly
       env: dependencies=highest
+    allow_failures:
+        - php: nightly
+    fast_finish: true
 
 ## Cache composer bits, where possible
 cache:
