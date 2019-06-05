@@ -19,9 +19,9 @@ matrix:
     - php: '7.3'
       env: dependencies=highest
     - php: nightly
-      env: dependencies=lowest
+      env: dependencies=lowest TEST_GROUP=canFail
     - php: nightly
-      env: dependencies=highest
+      env: dependencies=highest TEST_GROUP=canFail
 
 ## Cache composer bits, where possible
 cache:
