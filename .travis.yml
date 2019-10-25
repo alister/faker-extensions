@@ -41,6 +41,7 @@ before_script:
   - if [ "$dependencies" = "lowest" ]; then composer update --prefer-lowest --no-interaction ; fi;
   - if [ "$dependencies" = "highest" ]; then composer update --no-interaction ; fi;
   - composer install --prefer-dist
+  - sudo apt-get -y install ant
   - "curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | sudo bash"
 
 script:
