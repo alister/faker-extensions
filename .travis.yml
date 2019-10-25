@@ -6,6 +6,7 @@ language: php
 php:
   - 7.2
   - 7.3
+  - 7.4
   - nightly
 
 matrix:
@@ -23,6 +24,7 @@ matrix:
     - php: nightly
       env: dependencies=highest
   allow_failures:
+    - php: 7.4
     - php: nightly
   fast_finish: true
 
@@ -35,14 +37,16 @@ cache:
 before_script:
   - phpenv config-add .travis.php.ini
   - composer self-update
-  - composer config --global github-oauth.github.com $GITHUB_OAUTH_TOKEN
   - if [ -z "$dependencies" ]; then composer install; fi;
   - if [ "$dependencies" = "lowest" ]; then composer update --prefer-lowest --no-interaction ; fi;
   - if [ "$dependencies" = "highest" ]; then composer update --no-interaction ; fi;
   - composer install --prefer-dist
+  - "curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | sudo bash"
 
 script:
   - ant
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+  - fossa init
+  - fossa analyze
