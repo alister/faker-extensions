@@ -6,6 +6,7 @@ language: php
 php:
   - 7.2
   - 7.3
+  - 7.4snapshot
   - 7.4
   - nightly
 
@@ -35,6 +36,18 @@ cache:
     - $HOME/.composer/cache
 
 before_script:
+  - |
+     if [[ "$DRIVER" = 'pcov' ]]; then
+       echo > $HOME/.phpenv/versions/$TRAVIS_PHP_VERSION/etc/conf.d/xdebug.ini
+       git clone --single-branch --branch=v1.0.6 --depth=1 https://github.com/krakjoe/pcov
+       cd pcov
+       phpize
+       ./configure
+       make clean install
+       echo "extension=pcov.so" > $HOME/.phpenv/versions/$TRAVIS_PHP_VERSION/etc/conf.d/pcov.ini
+       cd $TRAVIS_BUILD_DIR
+     fi
+
   - phpenv config-add .travis.php.ini
   - composer self-update
   - if [ -z "$dependencies" ]; then composer install; fi;
@@ -45,7 +58,8 @@ before_script:
   - "curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | sudo bash"
 
 script:
-  - ant
+  - ant travis
+  - vendor/bin/phpunit --coverage-clover=build/artifacts/logs/clover.xml --coverage-text
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

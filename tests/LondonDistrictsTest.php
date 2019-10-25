@@ -18,7 +18,7 @@ class LondonDistrictsTest extends TestCase
      *
      * This method is called before a test is executed.
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->l = new LondonDistricts(new Generator());
     }
@@ -26,8 +26,8 @@ class LondonDistrictsTest extends TestCase
     /**
      * @covers Alister\Faker\Provider\LondonDistricts::londondistricts
      */
-    public function testLondondistricts()
+    public function testLondondistricts(): void
     {
-        $this->assertInternalType('string', $this->l->londondistricts());
+        $this->assertIsString($this->l->londondistricts());
     }
 }

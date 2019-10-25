@@ -1,0 +1,8 @@
+parameters:
+    # see https://github.com/rectorphp/rector/pull/2052
+    #auto_import_names: true
+
+    #exclude_paths:
+
+    autoload_paths:
+        - vendor/autoload.php

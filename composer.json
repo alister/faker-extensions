@@ -13,6 +13,9 @@
     "autoload": {
         "psr-4": { "Alister\\Faker\\Provider\\": "src/" }
     },
+    "autoload-dev": {
+        "psr-4": { "Alister\\Faker\\Tests\\Provider\\": "tests/" }
+    },
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.0",
@@ -20,10 +23,11 @@
     },
     "require-dev": {
         "phpmd/phpmd": "^2.6"
-        ,"phpunit/phpunit": "^6.1"
+        ,"phpunit/phpunit": "^8.4"
         ,"squizlabs/php_codesniffer": "^3.0"
-        ,"sebastian/phpcpd": "^3.0"
+        ,"sebastian/phpcpd": "^4.1"
         ,"sensiolabs/security-checker": "^6.0"
+        ,"phpunit/php-timer": "^2.1"
     },
     "suggest": {
         "willdurand/faker-bundle": "Put the awesome Faker lib into the DIC and populate your database with fake data."

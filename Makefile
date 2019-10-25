@@ -15,7 +15,7 @@ composer-update:
 	composer update
 
 tidy:
-	find . -type d -name 'vendor' -prune -o  \( -perm /ugo=x -iname '*.md' -o -iname '*php' -o -iname '.*yml' -o -iname '*json' -o -name 'LICENSE' -o -name '*.xml' \) -print | xargs chmod -x
+	find . -type d -name 'vendor' -prune -o   -name 'tmp-phpqa' -prune -o  \( -perm /ugo=x -iname '*.md' -o -iname '*php' -o -iname '.*yml' -o -iname '*json' -o -name 'LICENSE' -o -name '*.xml' \) -print | xargs chmod -x
 
 security:
 	vendor/bin/security-checker   security:check
